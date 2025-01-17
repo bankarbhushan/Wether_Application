@@ -15,7 +15,7 @@ async function checkWeather(city) {
   }
 
   const spinner = document.getElementById("spinner");
-  spinner.style.display = "block"; // Show spinner
+  spinner.style.display = "block";
 
   try {
     const response = await fetch(apiUrl + city + "&appid=" + apiKey);
